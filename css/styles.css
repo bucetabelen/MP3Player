@@ -59,11 +59,12 @@ ul{
     grid-area: song-three;
 }
 
-/* MEDIA */ 
+/* MEDIA IPHONE X*/ 
 @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { 
+
+    and (min-device-width: 375px)
+    and (max-device-height: 812px)
+    and (-webkit-device-pixel-ratio: 3) { 
 
     body{
         padding: 34pt;
@@ -82,3 +83,16 @@ ul{
         margin-left: 26px;
     }
 }
+
+
+@media only screen 
+    and (min-device-width : 414px)
+    and (max-device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+        .title{
+            letter-spacing: 16px;
+        }
+        .song-img{
+            margin-left: 25px;
+        }
+    }
