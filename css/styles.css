@@ -1,0 +1,60 @@
+body{
+    padding: 10pt;
+    background: linear-gradient(#1DB954,#191414, #1DB954)
+   
+}
+.header{
+    padding: 20px;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    color:#191414 ;
+  
+  
+}
+ul{
+    list-style-type: none;
+}
+
+.song-img{
+
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    display: block;
+    text-align: center;
+    margin-left: 23px;
+    border-radius: 5px;
+}
+
+.song{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-areas: 
+       
+        " song-one "
+        "song-two "
+        "song-three "
+    ;
+    grid-gap: 25pt;
+}
+
+
+
+.song-one{
+    grid-area: song-one;
+    
+    align-self: center;
+    justify-self: center;
+}
+.song-two{
+    grid-area: song-two;
+}
+.song-three{
+    grid-area: song-three;
+}
