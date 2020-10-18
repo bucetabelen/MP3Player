@@ -58,3 +58,27 @@ ul{
 .song-three{
     grid-area: song-three;
 }
+
+/* MEDIA */ 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+    body{
+        padding: 34pt;
+    }
+    .header{
+        padding: 1pt;
+    }
+    .title{
+        letter-spacing: 7px;
+        font-size: 24px;
+    }
+    .song{
+        margin-right: 24px;
+    }
+    .song-img{
+        margin-left: 26px;
+    }
+}
